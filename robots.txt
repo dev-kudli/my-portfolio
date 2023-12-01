@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://surakshanadig.me/sitemap-index.xml
+Sitemap: http://surakshanadig.me/my-portfolio/sitemap-index.xml
 Host: surakshanadig.me
