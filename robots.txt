@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://surakshanadig.me/my-portfolio/sitemap-index.xml
-Host: surakshanadig.me
+Sitemap: https://dev-kudli.github.io/my-portfolio/sitemap-index.xml
+Host: https://dev-kudli.github.io
