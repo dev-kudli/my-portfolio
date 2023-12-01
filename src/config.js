@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'suraksha.nadigg@gmail.com',
 
   socialMedia: [
     {
@@ -11,12 +11,8 @@ module.exports = {
       url: 'https://www.instagram.com/bchiang7',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-    {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/suraksha-nadig-431482b9/',
     },
     {
       name: 'Codepen',
