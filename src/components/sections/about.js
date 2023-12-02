@@ -6,7 +6,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   .inner {
     display: grid;
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    // background-color: var(--white);
 
     &:hover,
     &:focus {
@@ -81,8 +81,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -125,7 +125,21 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'C++',
+    'MATLAB',
+    'Git',
+    'Digital Signal Processing (DSP)',
+    'Deep Learning',
+    'Detection and Pattern Recognition',
+    'Communication protocols (MODBUS, MQTT, CAN, PROFIBUS)',
+    'Kubernetes',
+    'Docker',
+    'BASH Scripting',
+    'Industrial Automation',
+    'Distributed Control Systems (DCS)',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +149,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Suraksha and I excel in Smart Systems and Cloud-Based Control Tech,
+              showcasing expertise in C, Python, Kubernetes, and Centum VP. As an Electrical
+              Engineer, my passion lies in designing robust control logics and contributing to
+              Industry 4.0. I enjoy the dynamic challenges, virtualization, and innovation inherent
+              in this field.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              <a href="https://starry.com/">Yokogawa</a>, <a href="https://www.apple.com/">DRDO</a>,{' '}
+              <a href="https://scout.camd.northeastern.edu/">Siemens</a>, and{' '}
+              <a href="https://www.apple.com/">Megamic Electronics</a> . My main focus currently is
+              building cloud-based control technology at the{' '}
+              <a href="https://upstatement.com/">University Of Stuttgart</a>, contibuting to
+              industry 4.0 advancements.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

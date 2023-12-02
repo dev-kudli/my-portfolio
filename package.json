@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "portfolio",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Sudarshan Kudli <sudarshan97.kudli@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/dev-kudli/my-portfolio"
   },
   "keywords": [
     "gatsby"
@@ -20,7 +20,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "build:pp": "gatsby build",
+    "build:gh": "npm run clean && npm run build:pp && gh-pages -d public"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
