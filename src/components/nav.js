@@ -136,7 +136,7 @@ const StyledLinks = styled.div`
           content: '0' counter(item) '.';
           margin-right: 5px;
           color: var(--green);
-          font-size: var(--fz-xxs);
+          font-size: var(--fz-xs);
           text-align: right;
         }
       }
